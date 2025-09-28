@@ -23,7 +23,7 @@
 Bayes’ Rule:  
 
 \[
-P(c|d) = \frac{P(c) \cdot P(d|c)}{P(d)}
+P(c∣d)=P(c)P(d∣c)P(d)P(c \mid d) = \frac{P(c) P(d \mid c)}{P(d)}P(c∣d)=P(d)P(c)P(d∣c) 
 \]  
 
 - **P(d)** is the probability of the document itself, independent of class.  
@@ -31,7 +31,7 @@ P(c|d) = \frac{P(c) \cdot P(d|c)}{P(d)}
 - Therefore, classification is done by maximizing only:  
 
 \[
-P(c) \cdot P(d|c)
+P(c)P(d∣c)P(c) P(d \mid c)P(c)P(d∣c), and safely ignore P(d)P(d)P(d)
 \]  
 
 **Example (email classification with word “discount”):**  
